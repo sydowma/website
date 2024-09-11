@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast-GPT - AI Tool | 智能 AI 工具</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .price {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #e74c3c;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .features {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .lang-switch {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px;
+            background-color: #2ecc71;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .en, .zh {
+            display: none;
+        }
+        .en:lang(en), .zh:lang(zh) {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <button class="lang-switch" onclick="toggleLanguage()">
+        <span class="en">中文</span>
+        <span class="zh">English</span>
+    </button>
+
+    <div class="en">
+        <h1>Fast-GPT: Your Intelligent Coding Assistant</h1>
+        
+        <p class="price">Only $10/month</p>
+        
+        <p>Fast-GPT is a revolutionary AI tool designed to enhance your coding efficiency and quality. As a powerful plugin for JetBrains IntelliJ IDEA, Fast-GPT will transform your development experience.</p>
+        
+        <a href="#" class="cta-button">Buy Now</a>
+        
+        <div class="features">
+            <h2>Key Features:</h2>
+            <ul>
+                <li>Intelligent Code Completion: Provides context-aware code suggestions to speed up coding</li>
+                <li>Real-time Error Detection: Identifies and corrects potential issues as you type</li>
+                <li>Code Refactoring Suggestions: Automatically recognizes optimizable code patterns and offers improvement suggestions</li>
+                <li>Natural Language to Code Conversion: Simply describe your needs, and Fast-GPT will generate the corresponding code</li>
+                <li>Multi-language Support: Compatible with various mainstream programming languages</li>
+            </ul>
+        </div>
+        
+        <p>Fast-GPT is available on the JetBrains IntelliJ IDEA plugin marketplace. With just a few clicks, you can integrate this powerful AI assistant into your familiar development environment.</p>
+        
+        <p>Whether you're an experienced developer or new to programming, Fast-GPT can help you code faster and smarter. Try it now and experience the AI-driven programming revolution!</p>
+        
+        <p>Note: This product is for legal and ethical purposes only. Use for any illegal or harmful activities is prohibited.</p>
+    </div>
+
+    <div class="zh">
+        <h1>Fast-GPT: 您的智能编码助手</h1>
+        
+        <p class="price">仅需 $10/月</p>
+        
+        <p>Fast-GPT 是一款革命性的 AI 工具，专为提高您的编码效率和质量而设计。作为 JetBrains IntelliJ IDEA 的强大插件，Fast-GPT 将彻底改变您的开发体验。</p>
+        
+        <a href="#" class="cta-button">立即购买</a>
+        
+        <div class="features">
+            <h2>主要特性：</h2>
+            <ul>
+                <li>智能代码补全：提供上下文相关的代码建议，加快编码速度</li>
+                <li>实时错误检测：在您输入时即时发现并修正潜在问题</li>
+                <li>代码重构建议：自动识别可优化的代码模式并提供改进建议</li>
+                <li>自然语言到代码转换：只需描述您的需求，Fast-GPT 就能生成相应代码</li>
+                <li>多语言支持：适用于各种主流编程语言</li>
+            </ul>
+        </div>
+        
+        <p>Fast-GPT 可在 JetBrains IntelliJ IDEA 的插件市场上获取。只需几次点击，您就可以将这个强大的 AI 助手集成到您熟悉的开发环境中。</p>
+        
+        <p>无论您是经验丰富的开发者还是编程新手，Fast-GPT 都能帮助您更快、更智能地编码。立即尝试，体验 AI 驱动的编程革命！</p>
+        
+        <p>注：本产品仅供用于合法和道德的目的。禁止用于任何非法或有害活动。</p>
+    </div>
+
+    <script>
+        function toggleLanguage() {
+            const html = document.documentElement;
+            if (html.lang === 'en') {
+                html.lang = 'zh';
+            } else {
+                html.lang = 'en';
+            }
+        }
+    </script>
+</body>
+</html>
